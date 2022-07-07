@@ -1,0 +1,51 @@
+h1 {
+  font-family:Times new roman;
+  margin:auto;
+  color: black;
+  text-alignment:center;
+  width:25%;
+  padding: 5px 5px 5px 5px ;
+  background-color :yellow;
+}
+
+body {
+  background-color:#F1F3F1;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  margin: 30px;
+}
+
+canvas {
+  width: auto;
+  height: auto;
+  /*margin: 10px; */
+  border: 5px solid gray;
+}
+#btn{
+  text-align:center;
+  color:#000;
+  background-color:=cyan;
+  border-radius:6px;
+  border : 1px solid #000 ;
+}
+#dv1{
+  margin:auto;
+  width:12%;
+  height:2%;
+  margin-top: 20px ;
+  padding: 0.01px px 0.5px px ;
+  background-color :cyan;
+  border-radius:6px;
+  margin-bottom: 10px ;
+  text-align:center;
+}
+
+#dv2{
+  margin:auto;
+  width:25%;
+  margin-top: 20px ;
+  padding: 10px 10px 10px 10px ;
+  background-color :orange;
+  border-radius:6px;
+  margin-bottom: 10px ;
+  text-align:center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js">
+
+    </script>
+  </head>
+  <body>
+    <div id ="new" style=text-align:center; ><h1>Filter the Image </h1></div>
+<div style = "width: 100%;
+   text-align:center;">
+<canvas id = "can"></canvas>
+</div >
+<script src ="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+ </script>
+<div style = "text-alaign:center;">
+Upload Image :
+<input  id ="file" type="file" multiple="false"
+accept ="image/*" onchange="UploadImage()" >
+</div >
+<div id = "dv1">
+Choose Your Filter:</div>
+<div id ="dv2"><input id ="btn" type="button" value="Grayscale" onclick="greyscale()">
+<input id ="btn" type="button" value="Red" onclick="setR()">
+<input id ="btn" type="button" value="Window" onclick="Window()">
+<input id ="btn" type="button" value="Rainbow" onclick="Rainbow()">
+<p>
+<input id ="btn" type="button" value="Clear" onclick="Clear()">
+<input id ="btn" type="button" value="Reset" onclick="Reset()">
+</P>
+</div>
+  </body>
+</html>
