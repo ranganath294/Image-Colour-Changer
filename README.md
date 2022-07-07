@@ -1,1 +1,1 @@
-# Image-Colour-Changer
+# Image-Color-Changer
